@@ -1,0 +1,247 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ControlAcademico",
+    "dateExported": "2024-03-04T04:33:48.377Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "edb3982e-442a-4046-840a-a7c602ea0722",
+            "name": "Person",
+            "containerId": "",
+            "created": "2024-02-23T04:03:38.163Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "b99c002d-63d4-4174-a9a0-a0a192d7164e",
+            "name": "Course",
+            "containerId": "",
+            "created": "2024-02-23T12:26:21.425Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "944933e4-3881-463b-bdb0-4bafa36c7b76",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "b99c002d-63d4-4174-a9a0-a0a192d7164e",
+            "name": "test",
+            "url": "/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-23T12:26:36.011Z",
+            "modified": "2024-02-23T13:15:29.008Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "80326cc1-5a51-4b98-8ab3-b3eee1ecb26f",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "edb3982e-442a-4046-840a-a7c602ea0722",
+            "name": "test",
+            "url": "/person/test",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-23T04:03:47.682Z",
+            "modified": "2024-02-23T13:14:54.206Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "75e098e8-3a78-45c4-ae91-2b08e1557e2d",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "b99c002d-63d4-4174-a9a0-a0a192d7164e",
+            "name": "Register",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T12:26:42.849Z",
+            "modified": "2024-02-23T13:15:42.085Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Matematica"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d13d30a-2ac7-496f-9cc4-18dc963078b8",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "edb3982e-442a-4046-840a-a7c602ea0722",
+            "name": "Register",
+            "url": "/person/register",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-23T12:14:10.413Z",
+            "modified": "2024-02-23T13:15:10.027Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Axel"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Xitumul"
+                    },
+                    {
+                        "name": "username",
+                        "value": "xd"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "adddadasda"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12356478"
+                    },
+                    {
+                        "name": "course",
+                        "value": "65d892d14397a887428d91b2"
+                    },
+                    {
+                        "name": "role",
+                        "value": "adadawda"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d5c46e65-7016-4d62-9b77-b348b171154a",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "b99c002d-63d4-4174-a9a0-a0a192d7164e",
+            "name": "Update",
+            "url": "/update/65d8923f87292ee0baea242f",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T12:27:02.080Z",
+            "modified": "2024-02-23T13:15:47.023Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Lenguaje"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e3002141-f79d-4105-a732-c0c2d5d263c2",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "b99c002d-63d4-4174-a9a0-a0a192d7164e",
+            "name": "Delete",
+            "url": "/delete/65d8923f87292ee0baea242f",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T12:27:06.870Z",
+            "modified": "2024-02-23T13:15:50.718Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e091be5a-40b6-485d-9316-ca853504a79d",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "edb3982e-442a-4046-840a-a7c602ea0722",
+            "name": "login",
+            "url": "/person/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-23T12:20:40.832Z",
+            "modified": "2024-02-23T13:15:08.911Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "xitu"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678 "
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3a75df35-5b18-4252-a728-61e760b9917f",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "edb3982e-442a-4046-840a-a7c602ea0722",
+            "name": "Update",
+            "url": "/person/update/65d893cd402958765a523379",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2024-02-23T12:22:27.109Z",
+            "modified": "2024-02-23T13:15:16.196Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4OTNjZDQwMjk1ODc2NWE1MjMzNzkiLCJ1c2VybmFtZSI6InhpdHUiLCJuYW1lIjoiQXhlbCIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA4NjkzMDAwLCJleHAiOjE3MDg3MDM4MDB9.QKXegZ_Oir1152-2Gx2Xr-4FpxS_HPuDk3r9aIJmSVk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Josue"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e0f00d23-5359-4c9a-9b4f-253954dc5151",
+            "colId": "e618bad4-b194-48a0-bc02-2f573a3f9829",
+            "containerId": "edb3982e-442a-4046-840a-a7c602ea0722",
+            "name": "Delete",
+            "url": "person/delete/65d893cd402958765a523379",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-02-23T12:25:31.942Z",
+            "modified": "2024-02-23T13:15:22.242Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWQ4OTNjZDQwMjk1ODc2NWE1MjMzNzkiLCJ1c2VybmFtZSI6InhpdHUiLCJuYW1lIjoiQXhlbCIsInJvbGUiOiJTVFVERU5UIiwiaWF0IjoxNzA4NjkzMDAwLCJleHAiOjE3MDg3MDM4MDB9.QKXegZ_Oir1152-2Gx2Xr-4FpxS_HPuDk3r9aIJmSVk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    }
+}

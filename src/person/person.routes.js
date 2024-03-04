@@ -4,7 +4,7 @@ import { test, register, login, update, deleteP } from './person.controller.js';
 
 const api = express.Router();
 
-api.get('/test', [validateJwt, isTeacher], test)
+api.get('/test', test)
 api.post('/register', register)
 api.post('/login', login)
 api.put('/update/:id', [validateJwt], update)

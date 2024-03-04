@@ -23,7 +23,7 @@ app.use(helmet())
 app.use(morgan('dev'))
 
 app.use(courseRoutes)
-app.use(personRoutes)
+app.use('/person',personRoutes)
 app.use(validateJwt)
 
 
